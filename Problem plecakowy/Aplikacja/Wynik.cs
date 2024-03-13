@@ -28,7 +28,6 @@ namespace Problem_plecakowy
             {
                 wynik += $" {P.numer} \n";
             }
-            //wynik += $"Total Weight: { waga_sumaryczna} Total Value: { wartosc_sumaryczna}";
             return @$"{wynik} Total Weight: {waga_sumaryczna} Total Value: {wartosc_sumaryczna}";
         }
     }
